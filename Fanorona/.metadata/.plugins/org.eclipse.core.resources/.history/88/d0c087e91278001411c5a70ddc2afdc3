@@ -1,0 +1,11 @@
+package Test;
+
+import Logic.Engine;
+
+public class FanoronaTestCases {
+	
+	public static void main(String[] args) {
+		Engine e = new Engine();
+	}
+
+}

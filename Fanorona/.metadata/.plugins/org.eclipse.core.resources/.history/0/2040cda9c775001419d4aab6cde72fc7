@@ -1,0 +1,13 @@
+package Logic;
+
+import java.util.List;
+
+public class GameTreeNode {
+	
+	private GameTreeNode gameTreeNode;
+	
+	private List<GameTreeNode> getListOfChildren(){
+		
+	}
+
+}

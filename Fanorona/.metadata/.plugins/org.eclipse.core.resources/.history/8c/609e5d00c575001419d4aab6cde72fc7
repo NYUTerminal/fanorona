@@ -1,0 +1,15 @@
+package Logic;
+
+public class AlphaBeta {
+	
+	//Comes AlphaBeta Logic .
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	public void alphaBeta(){
+		
+	}
+
+}

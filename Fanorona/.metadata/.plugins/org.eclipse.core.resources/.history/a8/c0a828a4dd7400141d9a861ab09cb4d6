@@ -1,0 +1,71 @@
+package Logic;
+
+public class Piece {
+
+	private int row;
+
+	private int y;
+	
+	private boolean isBlack;
+
+	public int getX() {
+		return row;
+	}
+
+	public void setX(int x) {
+		this.row = x;
+	}
+
+	public int getY() {
+		return y;
+	}
+
+	public void setY(int y) {
+		this.y = y;
+	}
+
+	public int[] getPosition() {
+		int[] position = new int[2];
+		position[0] = row;
+		position[1] = y;
+		return position;
+	}
+
+	public boolean isBlack() {
+		return isBlack;
+	}
+
+	public void setBlack(boolean isBlack) {
+		this.isBlack = isBlack;
+	}
+	
+	public int movePieceToLeft(){
+		if(casepiece.getCol()>Case.MINCOL){
+			Case newCase = new Case(casepiece.getCol()-1,casepiece.getRow());
+			this.setCasepiece(newCase);
+		}
+		return 0;
+	}
+	public int movePieceToRight(){
+		if(casepiece.getCol()<Case.MAXCOL){
+			Case newCase = new Case(casepiece.getCol()+1,casepiece.getRow());
+			this.setCasepiece(newCase);
+		}
+		return 0;
+	}
+	public int movePieceToUp(){
+		if(casepiece.getCol()<Case.MAXROW){
+			Case newCase = new Case(casepiece.getCol(),casepiece.getRow()+1);
+			this.setCasepiece(newCase);
+		}
+		return 0;
+	}
+	public int movePieceToDown(){
+		if(casepiece.getCol()>Case.MINROW){
+			Case newCase = new Case(casepiece.getCol(),casepiece.getRow()-1);
+			this.setCasepiece(newCase);
+		}
+		return 0;
+	}
+
+}

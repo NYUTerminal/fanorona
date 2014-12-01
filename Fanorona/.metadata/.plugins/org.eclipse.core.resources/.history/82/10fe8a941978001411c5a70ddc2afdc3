@@ -1,0 +1,9 @@
+package Logic;
+
+public class FanoronaHelper {
+	
+	public List<Move> getAdjusantPoint(){
+		
+	}
+
+}

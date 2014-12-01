@@ -1,0 +1,59 @@
+package Logic;
+
+public class Move {
+
+	public int startPointX;
+	public int startPointY;
+	public int endPointX;
+	public int endPointY;
+	public int valueOfMove;
+
+	final int BLACKPIECE = -1;
+	final int WHITEPIECE = 1;
+	final int EMPTYSPOT = 0;
+
+	public Move(int startX, int startY, int endX, int endY) {
+
+		startPointX = startX;
+		startPointY = startY;
+		endPointX = endX;
+		endPointY = endY;
+		valueOfMove = 0;
+	}
+
+	public Move() {
+
+		startPointX = 0;
+		startPointY = 0;
+		endPointX = 0;
+		endPointY = 0;
+		valueOfMove = 0;
+	}
+
+	// Copy constructor
+	public Move(Move other) {
+
+		this.startPointX = other.startPointX;
+		this.startPointY = other.startPointY;
+		this.endPointX = other.endPointX;
+		this.endPointY = other.endPointY;
+		this.valueOfMove = other.valueOfMove;
+
+	}
+
+	public int[][] newMove(int[][] gameBoard) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public boolean isOneStepMove() {
+		int xDiff = endPointX - startPointX;
+		int yDiff = endPointY - startPointY;
+		if (-2 < xDiff && xDiff < 2 && -2 < yDiff && yDiff < 2)
+			return true;
+		
+		return false;
+	}
+
+	
+}

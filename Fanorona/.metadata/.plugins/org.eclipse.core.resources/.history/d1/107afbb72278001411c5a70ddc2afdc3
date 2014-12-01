@@ -1,0 +1,24 @@
+package Logic;
+
+public class FanoronaHelper {
+	
+	public List<Move> getAdjusantPoint(){
+		
+		
+		return null;
+	}
+
+	public static boolean isPlayerMoveValid(Color playerColor,
+			int[][] boardState,Move move,int maxRow,int maxCol) {
+	/*	if(boardState[move.endPointX][move.endPointY]==0 && boardState){
+			
+		}*/
+		
+		
+		
+		
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

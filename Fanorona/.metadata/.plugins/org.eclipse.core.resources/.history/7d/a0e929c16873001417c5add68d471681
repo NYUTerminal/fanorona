@@ -1,0 +1,14 @@
+package Logic;
+
+public class Black {
+	
+	int x;
+	
+	int y;
+	
+	public int[] getPosition(){
+		int[] position = new int[2];
+		return ;
+	}
+
+}

@@ -1,0 +1,9 @@
+package Logic;
+
+public enum Color {
+	BLACK, WHITE;
+	
+	public Color getOtherColor(Color input){
+		return WHITE;
+	}
+}

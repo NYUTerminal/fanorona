@@ -1,0 +1,41 @@
+package Logic;
+
+public class AlphaBeta {
+	
+	//Comes AlphaBeta Logic .
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	public void alphaBeta(){
+		
+	}
+	
+	publint alpha = -INFINITY;
+    int beta = INFINITY;
+    int bestScore = -Integer.MAX_VALUE;
+    GameTreeNode gameTreeRoot = new GameTreeNode(state);
+    GameState bestMove = null;
+    for(GameTreeNode child: gameTreeRoot.getChildren())
+    {
+        if(bestMove == null)
+        {
+            bestMove = child.getState();
+        }
+        alpha = Math.max(alpha, miniMax(child, plyDepth - 1, alpha, beta));
+        if(alpha > bestScore)
+        {
+            bestMove = child.getState();
+            bestScore = alpha;
+        }
+    }
+    return bestMove;ic FanonaraState makeAMove(){
+		
+		
+		return null;
+		
+		
+	}
+
+}

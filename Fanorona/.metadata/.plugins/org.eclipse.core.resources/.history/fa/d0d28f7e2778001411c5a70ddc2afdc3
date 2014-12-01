@@ -1,0 +1,13 @@
+package Logic;
+
+public final class BoardProperties {
+
+	public static int MAX_ROW;
+	
+	public static int MAX_COL;
+	
+	public static Color playerColor;
+	
+	public static Color compColor;
+	
+}

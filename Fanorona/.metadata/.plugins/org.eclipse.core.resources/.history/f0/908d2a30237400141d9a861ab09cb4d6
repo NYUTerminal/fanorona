@@ -1,0 +1,39 @@
+package Logic;
+
+public class Engine {
+
+	private int MAX_ROW;
+	private int MAX_COL;
+	private int row;
+	private int col;
+	
+	public void Engine(){
+		MAX_ROW=0;
+		MAX_COL=0;
+		row=0;
+		col=0;
+		
+	}
+
+	public void initializeBoard(int sizeOfBoard,String playerColor) {
+		if (sizeOfBoard == 1) {
+			MAX_COL = 2;
+			MAX_ROW = 2;
+		} else {
+			MAX_COL = 4;
+			MAX_ROW = 4;
+		}
+		
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+	public int[] getAllVacantPositions() {
+
+		return null;
+
+	}
+
+}

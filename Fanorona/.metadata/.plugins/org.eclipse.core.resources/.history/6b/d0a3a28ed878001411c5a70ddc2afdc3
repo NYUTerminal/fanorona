@@ -1,0 +1,18 @@
+package Test;
+
+import Logic.BoardProperties;
+import Logic.Engine;
+import Logic.Move;
+
+public class FanoronaTestCases {
+
+	public static void main(String[] args) {
+		Engine e = new Engine();
+		e.initializeBoard(1, "BLACK");
+		e.printCurrestStateOfBoard();
+		System.out.println(BoardProperties.getInstance().toString());
+		e.killPiecesAndUpdateBoard(BoardProperties.getInstance().getBoardState(), new Move(1,0,1,1), true, colorToKill);
+		
+	}
+
+}
