@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy element &apos;FanoronaLinkBoard.java&apos; to &apos;FanoronaFace/src/(default package)&apos;&#x0A;- Original project: &apos;sample&apos;&#x0A;- Destination element: &apos;FanoronaFace/src/(default package)&apos;&#x0A;- Original element: &apos;alaska.src.edu.alaska.uaa.cs401.fgm.FanoronaLinkBoard.java&apos;" description="Copy compilation unit" destination="=FanoronaFace/src&lt;" element1="/src&lt;alaska.src.edu.alaska.uaa.cs401.fgm{FanoronaLinkBoard.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1417366181722" units="1" version="1.0"/>
-</session>
